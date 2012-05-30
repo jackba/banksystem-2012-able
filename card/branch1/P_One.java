@@ -23,7 +23,7 @@ public class P_One extends JPanel {
          
        //수정
         pwField = new JPasswordField();
-        pwField.setText("merge test");
+        pwField.setText("merge test"); //수정
 		pwField.setFont(new Font("Dialog.plain", 0, 12));
 		pwField.setForeground(new Color(-13421773));
 		pwField.setBackground(new Color(-1));
