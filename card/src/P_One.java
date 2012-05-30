@@ -30,6 +30,7 @@ public class P_One extends JPanel {
 		add(pwField);
 
 		idField = new JTextField();
+		idField.setText("testttttttt"); //¼öÁ¤
 		idField.setFont(new Font("Dialog.plain", 0, 12));
 		idField.setForeground(new Color(-13421773));
 		idField.setBackground(new Color(-1));
