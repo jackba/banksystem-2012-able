@@ -9,8 +9,8 @@ public class P_One extends JPanel {
     public P_One(Frame f) {
     	JPasswordField pwField;
     	final JTextField idField;
-    	JLabel jLabel19;
-    	JLabel jLabel20;
+    	JLabel label1;
+    	JLabel label2;
     	final JButton jButton1;
 
     	    	
@@ -36,23 +36,23 @@ public class P_One extends JPanel {
 		idField.setBounds(188, 50, 140, 42);
 		add(idField);
 
-		jLabel19 = new JLabel();
-		jLabel19.setText("아이디");
-		jLabel19.setFont(new Font("Dialog.plain", 0, 12));
-		jLabel19.setIcon(new ImageIcon(""));
-		jLabel19.setForeground(new Color(-13421773));
-		jLabel19.setBackground(new Color(-1118482));
-		jLabel19.setBounds(84, 59, 77, 23);
-		add(jLabel19);
+		label1 = new JLabel();
+		label1.setText("아이디");
+		label1.setFont(new Font("Dialog.plain", 0, 12));
+		label1.setIcon(new ImageIcon(""));
+		label1.setForeground(new Color(-13421773));
+		label1.setBackground(new Color(-1118482));
+		label1.setBounds(84, 59, 77, 23);
+		add(label1);
 
-		jLabel20 = new JLabel();
-		jLabel20.setText("비밀번호");
-		jLabel20.setFont(new Font("Dialog.plain", 0, 12));
-		jLabel20.setIcon(new ImageIcon(""));
-		jLabel20.setForeground(new Color(-13421773));
-		jLabel20.setBackground(new Color(-1118482));
-		jLabel20.setBounds(81, 108, 69, 24);
-		add(jLabel20);
+		label2 = new JLabel();
+		label2.setText("비밀번호");
+		label2.setFont(new Font("Dialog.plain", 0, 12));
+		label2.setIcon(new ImageIcon(""));
+		label2.setForeground(new Color(-13421773));
+		label2.setBackground(new Color(-1118482));
+		label2.setBounds(81, 108, 69, 24);
+		add(label2);
 
 		jButton1 = new JButton();
 		jButton1.setText("관리자 로그인");
