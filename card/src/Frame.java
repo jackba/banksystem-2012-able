@@ -46,10 +46,7 @@ public class Frame extends JFrame{
     public void changePanel2() {
     	cards.last(this.getContentPane());
     }
-    //public int randAccNum(){
-    	
-    //}
-   
+       
     public static void main(String args[]){
         new Frame();
    }
