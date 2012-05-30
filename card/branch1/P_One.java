@@ -68,6 +68,17 @@ public class P_One extends JPanel {
 		jButton2.setForeground(new Color(-13421773));
 		jButton2.setBounds(198, 167, 139, 36);
 		
+		
+		//merge 테스트 위한 수정
+		final JButton jButton3 = new JButton();
+		jButton3.setText("test");
+		jButton3.setFont(new Font("Dialog.plain", 0, 12));
+		jButton3.setIcon(new ImageIcon(""));
+		jButton3.setForeground(new Color(-13421773));
+		jButton3.setBounds(220, 167, 240, 36);
+		
+		add(jButton3);
+		
 		jButton1.addActionListener(new ActionListener() {
 	            public void actionPerformed(ActionEvent arg0) {
 	            	F.changePanel();
