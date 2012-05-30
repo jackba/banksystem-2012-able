@@ -4,7 +4,7 @@ import javax.swing.*;
 public class Frame extends JFrame{
     private CardLayout cards = new CardLayout();
     JMenuBar menuBar;
-	JMenu menu_0;
+	JMenu menu;
 	JMenuItem open, save, logout;
 
 
@@ -28,13 +28,13 @@ public class Frame extends JFrame{
 	{
 		menuBar = new JMenuBar();
 
-		menu_0 = new JMenu("파일");
+		menu = new JMenu("파일");
 		open = new JMenuItem("열기");
 		save = new JMenuItem("저장");
 		logout= new JMenuItem("로그아웃");
-		menu_0.add(open);
-		menu_0.add(save);
-		menu_0.add(logout);
+		menu.add(open);
+		menu.add(save);
+		menu.add(logout);
 		menuBar.add(menu_0);
 
 		setJMenuBar(menuBar);
