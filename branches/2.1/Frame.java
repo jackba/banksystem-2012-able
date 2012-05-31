@@ -7,7 +7,8 @@ public class Frame extends JFrame{
 	JMenu menu;
 	JMenuItem open, save, logout;
 
-
+//////////////////////////////////////////
+//////////////////merge2
  
     public Frame() {
     	setBounds(94, 20, 854, 551);
