@@ -48,8 +48,8 @@ public class Frame extends JFrame{
     }
     
     
-    //merge 테스트
-    //
+    //merge222222222222222222222222222 테스트///////////////////////////////
+    ///////////////////////////////////////////
     //
     //
     public static void main(String args[]){
