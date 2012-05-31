@@ -39,7 +39,10 @@ public class Frame extends JFrame{
 
 		setJMenuBar(menuBar);
 	}
-     
+    //테스트하고 싶어요 오오오오오오옹오
+    ///////////////////////////////////////////
+    //
+    //
     public void changePanel() {
     	cards.next(this.getContentPane());
     }
@@ -48,10 +51,7 @@ public class Frame extends JFrame{
     }
     
     
-    //merge222222222222222222222222222 테스트///////////////////////////////
-    ///////////////////////////////////////////
-    //
-    //
+ 
     public static void main(String args[]){
         new Frame();
    }
