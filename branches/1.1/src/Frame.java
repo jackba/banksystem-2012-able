@@ -46,7 +46,7 @@ public class Frame extends JFrame{
     public void changePanel2() {
     	cards.last(this.getContentPane());
     }
-       
+    /////////////////////////////////////////test   
     public static void main(String args[]){
         new Frame();
    }
