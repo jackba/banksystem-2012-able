@@ -23,7 +23,7 @@ public class Frame extends JFrame{
        
         setVisible(true);
     }
-    
+    /////////////////////////////////
     public void makeMenuBar()
 	{
 		menuBar = new JMenuBar();
