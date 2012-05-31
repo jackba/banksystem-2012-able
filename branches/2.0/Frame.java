@@ -48,10 +48,12 @@ public class Frame extends JFrame{
     }
     
     
-    //merge222222222222222222222222222 Å×½ºÆ®///////////////////////////////
-    ///////////////////////////////////////////
-    //
-    //
+    //!!!!!merge test!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    public void testMerge(){
+    	System.out.println("merge test");
+    }
+    
+    
     public static void main(String args[]){
         new Frame();
    }
